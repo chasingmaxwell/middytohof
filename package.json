@@ -1,0 +1,59 @@
+{
+  "name": "middytohof",
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "scripts": {
+    "commitmsg": "make commitmsg",
+    "precommit": "make precommit",
+    "prepublish": "make prepublish"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.0.0-beta.47",
+    "@babel/core": "7.0.0-beta.47",
+    "@babel/node": "7.0.0-beta.47",
+    "@babel/preset-env": "7.0.0-beta.47",
+    "@babel/preset-flow": "7.0.0-beta.47",
+    "@commitlint/config-angular": "4.3.0",
+    "@emdaer/cli": "3.2.0",
+    "@emdaer/plugin-contributors-details-github": "^3.2.3",
+    "@emdaer/plugin-license-reference": "^3.2.3",
+    "@emdaer/plugin-shields": "^3.2.3",
+    "@emdaer/plugin-value-from-package": "3.2.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "8.2.3",
+    "babel-jest": "22.4.4",
+    "commitlint": "5.0.1",
+    "eslint": "4.19.1",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-config-problems": "0.1.1",
+    "eslint-plugin-babel": "5.1.0",
+    "eslint-plugin-better": "0.1.5",
+    "eslint-plugin-flowtype": "2.46.3",
+    "eslint-plugin-jest": "21.15.1",
+    "eslint-plugin-prettier": "2.6.0",
+    "flow-bin": "0.72.0",
+    "husky": "0.14.3",
+    "jest": "22.4.4",
+    "lint-staged": "7.1.2",
+    "nodemon": "1.17.5",
+    "prettier": "1.12.1"
+  },
+  "description": "Convert Middy middleware to chainable higher-order functions returning lambda handlers.",
+  "version": "0.0.0",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [
+    "middy",
+    "serverless",
+    "aws",
+    "lambda",
+    "hof",
+    "functor",
+    "fp"
+  ],
+  "author": "Peter Sieg <chasingmaxwell@gmail.com>",
+  "license": "MIT"
+}

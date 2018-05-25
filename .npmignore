@@ -1,0 +1,8 @@
+__coverage__
+.babelrc
+.eslintignore
+.eslintrc
+.gitignore
+.travis.yml
+jest.config.js
+lint-staged.config.js

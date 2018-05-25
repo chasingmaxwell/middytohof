@@ -1,0 +1,5 @@
+__coverage__
+lib
+!.babelrc.js
+!.eslintrc.js
+src/.eslintrc.js

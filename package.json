@@ -55,5 +55,6 @@
     "fp"
   ],
   "author": "Peter Sieg <chasingmaxwell@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "git@github.com:chasingmaxwell/middytohof.git"
 }

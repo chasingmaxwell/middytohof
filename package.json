@@ -6,7 +6,7 @@
   "scripts": {
     "commitmsg": "make commitmsg",
     "precommit": "make precommit",
-    "prepublish": "make prepublish"
+    "prepare": "make prepare"
   },
   "devDependencies": {
     "@babel/cli": "7.0.0-beta.47",

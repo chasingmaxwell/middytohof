@@ -1,6 +1,6 @@
 .PHONY: ci \
 	commitmsg \
-	prepublish \
+	prepare \
 	precommit \
 	commitlint \
 	commitlint-ci \
@@ -15,7 +15,7 @@ export FORCE_COLOR = true
 
 ci: commitlint-ci lint type test
 commitmsg: commitlint
-prepublish: build
+prepare: build
 precommit: lint-staged type test
 
 commitlint:

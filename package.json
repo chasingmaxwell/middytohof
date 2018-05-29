@@ -40,7 +40,7 @@
     "prettier": "1.12.1"
   },
   "description": "Convert Middy middleware to chainable higher-order functions returning lambda handlers.",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "directories": {
     "lib": "lib"
